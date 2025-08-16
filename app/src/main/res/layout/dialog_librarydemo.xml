@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter some text to test StringBuilder:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type here..."
+        android:background="@android:color/white"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buildBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Demo"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_light"
+        android:paddingTop="10dp"
+        android:textStyle="italic"/>
+</LinearLayout>
