@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#121212"
+    android:padding="16dp"
+    android:scrollbars="none">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:background="#1E1E1E"
+            android:padding="8dp">
+
+            <!-- Header Row -->
+            <TableRow android:background="#272727">
+                <TextView
+                    android:text="Category"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#BB86FC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:text="Example"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#BB86FC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:text="Size"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#BB86FC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:text="Use Case"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#BB86FC"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <!-- Data Rows -->
+            <TableRow>
+                <TextView android:text="byte" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="25" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="1 byte" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Sensors" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="short" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="32000" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="2 bytes" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Populations" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="int" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="50000" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="4 bytes" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Salary" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="long" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="98765L" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="8 bytes" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="IDs" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="float" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="36.6f" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="4 bytes" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Temperature" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="double" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="3.14" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="8 bytes" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Precision" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="boolean" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="true" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="1 bit" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Logic" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="char" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="'A'" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="2 bytes" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Grades" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="String" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Java&quot;"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView android:text="varies" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Text" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Array" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="{1,2,3}" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="varies" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Bulk data" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Class/Object" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Student" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="varies" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="OOP" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Wrapper Class" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Integer" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="varies" android:padding="8dp" android:textColor="#FFFFFF"/>
+                <TextView android:text="Collections" android:padding="8dp" android:textColor="#FFFFFF"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</HorizontalScrollView>
