@@ -2,18 +2,19 @@
 
 ##  Data Types in Java  
 - 🔹 Primitive  
-  - 🔢 byte  
-  - 🔢 short  
-  - 🔢 int  
-  - 🔢 long  
-  - 🔢 float  
-  - 🔢 double  
-  - 🔤 char  
-  - ⚡ boolean  
+  - byte  
+  - short  
+  -  int  
+  -  long  
+  -  float  
+  - double  
+  -  char  
+  -  boolean  
 
-- 🔸 Non-Primitive  
-  - 📝 String  
-  - 📦 Array  
-  - 🏷️ Class  
-  - 🎭 Interface  
+-  Non-Primitive  
+  -  String  
+  -  Array  
+  -  Class  
+  - 🎭
+  -  Interface  
 ---
