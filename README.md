@@ -1,7 +1,7 @@
 #  Java Data Types Demo  
 
 ##  Data Types in Java  
-- 🔹 Primitive  
+-  Primitive  
   - byte  
   - short  
   -  int  
