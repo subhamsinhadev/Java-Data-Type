@@ -14,7 +14,6 @@
 -  Non-Primitive  
   -  String  
   -  Array  
-  -  Class  
-  - 🎭
+  -  Class 
   -  Interface  
 ---
